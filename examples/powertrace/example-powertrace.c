@@ -50,6 +50,11 @@
 #include <stdio.h>
 /*---------------------------------------------------------------------------*/
 PROCESS(example_broadcast_process, "BROADCAST example");
+
+unsigned seconds = 60*1;//measure battery every 1 minute
+double fixed_perc_energy = 0.40; //  percentage of energy the node will start (4 for 2AA)\
+                                  https://github.com/KineticBattery/Powertrace
+unsigned variation = 2; // between 0 and 99
 AUTOSTART_PROCESSES(&example_broadcast_process);
 /*---------------------------------------------------------------------------*/
 static void
@@ -71,8 +76,8 @@ PROCESS_THREAD(example_broadcast_process, ev, data)
 
 
   /* Start powertracing, once every two seconds. */
-  powertrace_start(CLOCK_SECOND * 2);
-  
+  //powertrace_start(CLOCK_SECOND * 2);
+  powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
   broadcast_open(&broadcast, 129, &broadcast_call);
 
   while(1) {
