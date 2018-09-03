@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [19:59:37 - main] [Cooja.java:3181] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
 [19:59:37 - AWT-EventQueue-0] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux_64.config
 [19:59:37 - AWT-EventQueue-0] [Cooja.java:2895] [INFO] - External tools user settings: /home/musa/.cooja.user.properties
@@ -5094,3 +5095,8 @@
 [23:27:21 - Thread-70] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/it-sdn-old/simulation/../../SDNMMVER2/applications/enabled-node.sky
 [23:27:21 - Thread-70] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
 [23:27:22 - Thread-70] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+=======
+[21:37:23 - main] [Cooja.java:3181] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[21:37:23 - AWT-EventQueue-0] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux_64.config
+[21:37:23 - AWT-EventQueue-0] [Cooja.java:2897] [WARN] - Error when reading user settings from: /home/musa/.cooja.user.properties
+>>>>>>> f0c6d6fd56df7caed8143685b4015c71d0846904
