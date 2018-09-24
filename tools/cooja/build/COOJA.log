@@ -5978,3 +5978,36 @@
 [01:10:07 - Thread-41] [MspMote.java:229] [WARN] - 1: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $3279 at $47fa
 [01:10:07 - Thread-41] [MspMote.java:229] [WARN] - 1: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $3279 at $4806
 [01:10:07 - Thread-41] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1537571407413	Duration: 651652 ms	Simulated time 1200683 ms	Ratio 1.8425217754261476
+[01:10:59 - Thread-39] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[01:10:59 - Thread-40] [SerialSocketServer.java:497] [INFO] - Socket closed
+[01:10:59 - Thread-40] [SerialSocketServer.java:501] [INFO] - End of Stream
+[01:10:59 - Thread-42] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/controller-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/sink-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:10:59 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [MspMote.java:235] [INFO] - Loading firmware from: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/../applications/enabled-node.sky
+[01:11:00 - Thread-42] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[01:11:00 - Thread-42] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[01:11:24 - AWT-EventQueue-0] [Cooja.java:3497] [INFO] - Saved to file: /home/musa/Dropbox/PhD/SDNMMV2-1/simulation/SDNMM25nodeOP.csc
+[01:11:24 - Thread-43] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
