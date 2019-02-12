@@ -59,6 +59,12 @@
 
 static struct uip_udp_conn *client_conn;
 static uip_ipaddr_t server_ipaddr;
+/*--------------------powertrace---------------*/
+unsigned seconds = 60*10;//measure battery every 10 mins
+double fixed_perc_energy = 0.40; //  percentage of energy the node will start (4 for 2AA)\
+                                  https://github.com/KineticBattery/Powertrace
+unsigned variation = 2; // between 0 and 99
+
 
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client process");
@@ -145,14 +151,18 @@ set_global_address(void)
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
+  
   static struct etimer periodic;
   static struct ctimer backoff_timer;
+  
 #if WITH_COMPOWER
   static int print = 0;
 #endif
 
+#if WITH_COMPOWER
+ powertrace_sniff(POWERTRACE_ON);
+#endif
   PROCESS_BEGIN();
-
   PROCESS_PAUSE();
 
   set_global_address();
@@ -174,9 +184,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
   PRINTF(" local/remote port %u/%u\n",
 	UIP_HTONS(client_conn->lport), UIP_HTONS(client_conn->rport));
 
-#if WITH_COMPOWER
-  powertrace_sniff(POWERTRACE_ON);
-#endif
+
 
   etimer_set(&periodic, SEND_INTERVAL);
   while(1) {
@@ -196,6 +204,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
       if (++print == 3) {
 	print = 0;
       }
+  
 #endif
 
     }

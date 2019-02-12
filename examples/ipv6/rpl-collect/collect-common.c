@@ -87,7 +87,6 @@ collect_common_recv(const linkaddr_t *originator, uint8_t seqno, uint8_t hops,
   unsigned long time;
   uint16_t data;
   int i;
-
   printf("%u", 8 + payload_len / 2);
   /* Timestamp. Ignore time synch for now. */
   time = get_time();
